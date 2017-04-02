@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html> 
+  <!--   mejor hacerloa asi: http://mindovermeta.com/2010/08/how-to-build-an-iphone-compatible-html5-audio-player/
+   http://stackoverflow.com/questions/5923187/html5-audio-phonegap-android
+
+   http://www.bootply.com/106743
+   -->
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    
+
+        <link rel="stylesheet" href="/static/css/bootstrap.min.css">     
+    <link rel="stylesheet" href="/static/css/home.css">
+        <link rel="stylesheet" href="/static/css/font-awesome.min.css">    
+
+    
+   <!-- <link rel="stylesheet" href="/static/jq-mobile/jquery.mobile.structure-1.3.0.css" /> 
+    <link rel="stylesheet" href="/static/jq-mobile/jquery.mobile.theme-1.3.0.css" />-->
+
+    <script type="text/javascript" src="/static/js/lib/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="/static/js/lib/jsrender.min.js"></script>
+    <script type="text/javascript" src="/static/js/lib/bootstrap.min.js"></script>
+
+    <!--  -->
+
+  <!--  <link rel="stylesheet" href="/static/jq-mobile/jquery.mobile-1.3.0.css" />
+
+    <script type="text/javascript" charset="utf-8" src="/static/jq-mobile/jquery-1.7.2.min.js"></script>   
+    <script type="text/javascript" charset="utf-8" src="/static/jq-mobile/jquery.mobile-1.3.0.min.js"></script>  
+     -->
+    <script type="text/javascript" src="/static/javascript/jquery.cookie.js"></script>
+    
+    <script type="text/javascript" charset="utf-8" src="/static/js/boombox.js"></script> 
+    <script type="text/javascript" charset="utf-8" src="/static/js/searchFunctions.js"></script> 
+    <script type="text/javascript" charset="utf-8" src="/static/js/playlistFunctions.js"></script> 
+	<script type="text/javascript" charset="utf-8" src="/static/js/main.js"></script>    
+ 
+
+
+
+ 
+  </head>
+  <body>
+ <div id="wrap">
+  
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="navbar-header text-center">
+        <a href="#" class="navbar-brand">Brand</a> 
+      </div>
+    </nav>
+  
+  <!-- Begin page content -->
+  <div class="container">
+  	  <div id="template-container">
+  	  	<div id="templates-container-home" 		class="tab-content">	</div>
+ 	 	<div id="templates-container-search" 	class="tab-content">	</div>
+   		<div id="templates-container-playlist" 	class="tab-content">	</div>
+  	  </div>
+  </div>
+</div>
+
+<div id="footer">
+  <div class="col-xs-12 navbar-inverse navbar-fixed-bottom">
+  <div class="row" id="bottomNav">
+    <div class="col-xs-4 text-center">
+    	<a href="#" class="tab-btn" data-name="templates-container-home">
+    	<i class="fa fa-home" aria-hidden="true"></i><br>Inicio
+    	</a></div>
+    <div class="col-xs-4 text-center"><a href="#" class="tab-btn" data-name="templates-container-search">
+    		<i class="fa fa-search" aria-hidden="true"></i><br>Search
+    </a></div>
+    <div class="col-xs-4 text-center"><a href="#" class="tab-btn" data-name="templates-container-playlist">
+    	<i class="fa fa-sort-amount-asc" aria-hidden="true"></i><br>Playlist
+    </a></div>
+  </div>
+  </div>
+</div>
+      
+         
+   </body>
+</html>
